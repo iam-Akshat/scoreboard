@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./main.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <form action="" id="scoreForm">
+            <div class="form-field">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-field">
+                <label for="score">Score</label>
+                <input type="number" min="0" name="score" id="score" required >
+            </div>
+           <button type="submit" class="postUserScore">Score me</button>
+        </form>
+        <button class="refresh-btn">Refresh scores</button>
+        <div class="scores-holder">
+            
+            <div class="user-score">
+                <div class="username">Username</div>
+                <div class="score">Score</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

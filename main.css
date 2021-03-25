@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.user-score{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.user-score .username,.user-score .score{
+    width: 50%;
+    padding: 0.5rem;
+}
+.user-score .username{
+    background-color: burlywood;
+}
+.user-score .score{
+    background-color: chartreuse;
+    text-align: right;
+}
